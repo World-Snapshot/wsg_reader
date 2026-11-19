@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# PyTorch
+*.pth
+*.pt
+checkpoint*.pth
+best_model*.pth
+final_model.pth
+
+# Logs and outputs
+logs/
+*.log
+core_space/
+outputs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Project specific
+
+

@@ -1,0 +1,542 @@
+{
+  "3": {
+    "name": "alpha",
+    "nodes": [
+      [0.0, "#000000"],
+      [1.0, "#ffffff"]
+    ],
+    "range": [0.0, 255.0]
+  },
+  "126": {
+    "name": "relative_solid_volume",
+    "nodes": [
+      [
+        0.0,
+        "#182044"
+      ],
+      [
+        0.03,
+        "#2b4c9a"
+      ],
+      [
+        0.15,
+        "#168aad"
+      ],
+      [
+        0.35,
+        "#35b779"
+      ],
+      [
+        0.55,
+        "#d6cf3f"
+      ],
+      [
+        0.75,
+        "#e76f51"
+      ],
+      [
+        1.0,
+        "#f5f0b8"
+      ]
+    ],
+    "range": [
+      0.30760085582733154,
+      100.0
+    ]
+  },
+  "127": {
+    "name": "relative_surface_volume",
+    "nodes": [
+      [
+        0.0,
+        "#25113f"
+      ],
+      [
+        0.02,
+        "#54318c"
+      ],
+      [
+        0.08,
+        "#8f3c9f"
+      ],
+      [
+        0.18,
+        "#c4477d"
+      ],
+      [
+        0.35,
+        "#e66a45"
+      ],
+      [
+        0.6,
+        "#f3b33d"
+      ],
+      [
+        1.0,
+        "#fff0a6"
+      ]
+    ],
+    "range": [
+      0.42604973912239075,
+      14.270201683044434
+    ]
+  },
+  "128": {
+    "name": "relative_weight",
+    "nodes": [
+      [
+        0.0,
+        "#101f52"
+      ],
+      [
+        0.03,
+        "#2456a4"
+      ],
+      [
+        0.15,
+        "#1c91c0"
+      ],
+      [
+        0.35,
+        "#38b977"
+      ],
+      [
+        0.55,
+        "#b7d52b"
+      ],
+      [
+        0.75,
+        "#f3ad32"
+      ],
+      [
+        1.0,
+        "#ef4b3e"
+      ]
+    ],
+    "range": [
+      0.36309295892715454,
+      132.59178161621094
+    ]
+  },
+  "129": {
+    "name": "support_surface_area",
+    "nodes": [
+      [
+        0.0,
+        "#102b26"
+      ],
+      [
+        0.015,
+        "#16685c"
+      ],
+      [
+        0.05,
+        "#199b83"
+      ],
+      [
+        0.1,
+        "#53bd67"
+      ],
+      [
+        0.2,
+        "#b7d53c"
+      ],
+      [
+        0.4,
+        "#f0c541"
+      ],
+      [
+        1.0,
+        "#f07a4a"
+      ]
+    ],
+    "range": [
+      0.07100828737020493,
+      2.3783669471740723
+    ]
+  },
+  "130": {
+    "name": "relative_static_friction_force",
+    "nodes": [
+      [
+        0.0,
+        "#211047"
+      ],
+      [
+        0.03,
+        "#52318f"
+      ],
+      [
+        0.15,
+        "#8450b4"
+      ],
+      [
+        0.35,
+        "#bb4b91"
+      ],
+      [
+        0.55,
+        "#e45d62"
+      ],
+      [
+        0.75,
+        "#f2a43a"
+      ],
+      [
+        1.0,
+        "#f8df72"
+      ]
+    ],
+    "range": [
+      0.13239231705665588,
+      50.0
+    ]
+  },
+  "132": {
+    "name": "material_confidence",
+    "nodes": [
+      [
+        0.0,
+        "#5a1422"
+      ],
+      [
+        0.03,
+        "#9e2529"
+      ],
+      [
+        0.15,
+        "#dc4b32"
+      ],
+      [
+        0.4,
+        "#edae32"
+      ],
+      [
+        0.65,
+        "#c5d63d"
+      ],
+      [
+        0.85,
+        "#63bd52"
+      ],
+      [
+        1.0,
+        "#1d9d67"
+      ]
+    ],
+    "range": [
+      18.075801849365234,
+      100.0
+    ]
+  },
+  "133": {
+    "name": "density",
+    "nodes": [
+      [
+        0.0,
+        "#111b45"
+      ],
+      [
+        0.02,
+        "#203f83"
+      ],
+      [
+        0.08,
+        "#276ca8"
+      ],
+      [
+        0.2,
+        "#3296ad"
+      ],
+      [
+        0.4,
+        "#59b69c"
+      ],
+      [
+        0.65,
+        "#a6c879"
+      ],
+      [
+        1.0,
+        "#eee6bd"
+      ]
+    ],
+    "range": [
+      0.6000000238418579,
+      2.740000009536743
+    ]
+  },
+  "134": {
+    "name": "static_friction_coefficient",
+    "nodes": [
+      [
+        0.0,
+        "#261448"
+      ],
+      [
+        0.02,
+        "#57368e"
+      ],
+      [
+        0.1,
+        "#7d5eb6"
+      ],
+      [
+        0.3,
+        "#4b91c4"
+      ],
+      [
+        0.5,
+        "#44ba9a"
+      ],
+      [
+        0.7,
+        "#a4d052"
+      ],
+      [
+        1.0,
+        "#f1dc55"
+      ]
+    ],
+    "range": [
+      0.30000001192092896,
+      0.6800000071525574
+    ]
+  },
+  "143": {
+    "name": "material_region_id",
+    "type": "categorical",
+    "palette": "golden_angle"
+  },
+  "150": {
+    "name": "opacity",
+    "nodes": [
+      [
+        0.0,
+        "#161616"
+      ],
+      [
+        0.02,
+        "#303846"
+      ],
+      [
+        0.1,
+        "#52677c"
+      ],
+      [
+        0.3,
+        "#7898ae"
+      ],
+      [
+        0.5,
+        "#a8becb"
+      ],
+      [
+        0.7,
+        "#d2dce2"
+      ],
+      [
+        1.0,
+        "#ffffff"
+      ]
+    ],
+    "range": [
+      0.0,
+      0.49803900718688965
+    ]
+  },
+  "154": {
+    "name": "specular_shininess",
+    "nodes": [
+      [0.0, "#30123b"],
+      [0.25, "#325a9b"],
+      [0.5, "#27828e"],
+      [0.75, "#6cbe64"],
+      [1.0, "#f2dc54"]
+    ],
+    "range": [
+      1.0,
+      1.0
+    ]
+  },
+  "167": {
+    "name": "height",
+    "nodes": [
+      [0.0, "#30123b"],
+      [0.25, "#325a9b"],
+      [0.5, "#27828e"],
+      [0.75, "#6cbe64"],
+      [1.0, "#f2dc54"]
+    ],
+    "range": [
+      0.153076171875,
+      0.88623046875
+    ]
+  },
+  "168": {
+    "name": "roughness",
+    "nodes": [
+      [0.0, "#000000"],
+      [1.0, "#ffffff"]
+    ],
+    "range": [0.0, 1.0]
+  },
+  "169": {
+    "name": "metallic",
+    "nodes": [
+      [0.0, "#000000"],
+      [1.0, "#ffffff"]
+    ],
+    "range": [0.0, 1.0]
+  },
+  "173": {
+    "name": "opacity_map",
+    "nodes": [
+      [0.0, "#000000"],
+      [1.0, "#ffffff"]
+    ],
+    "range": [0.0, 1.0]
+  },
+  "111": {
+    "name": "object_asset_category",
+    "type": "categorical",
+    "ontology_revision": "wsg_v1_object_asset_coarse10_v1",
+    "semantics": "Source asset or primary subject category; distinct from channel 136.",
+    "classes": {
+      "0": {
+        "name": "other_or_unknown",
+        "color": "#808080"
+      },
+      "1": {
+        "name": "people",
+        "color": "#e63946"
+      },
+      "2": {
+        "name": "animals_plants_and_food",
+        "color": "#2a9d8f"
+      },
+      "3": {
+        "name": "furniture_and_storage",
+        "color": "#f4a261"
+      },
+      "4": {
+        "name": "architecture_and_lighting",
+        "color": "#8d99ae"
+      },
+      "5": {
+        "name": "electronics_and_appliances",
+        "color": "#457b9d"
+      },
+      "6": {
+        "name": "vessels_and_containers",
+        "color": "#e9c46a"
+      },
+      "7": {
+        "name": "tools_and_weapons",
+        "color": "#8338ec"
+      },
+      "8": {
+        "name": "vehicles",
+        "color": "#118ab2"
+      },
+      "9": {
+        "name": "personal_and_cultural_objects",
+        "color": "#bc6c89"
+      }
+    }
+  },
+  "131": {
+    "name": "material_class",
+    "type": "categorical",
+    "ontology_revision": "wsg_v1_material_coarse6_v1",
+    "semantics": "Coarse physical material family.",
+    "classes": {
+      "0": {
+        "name": "unknown",
+        "color": "#808080"
+      },
+      "1": {
+        "name": "mineral_ceramic_and_glass",
+        "color": "#70acbb"
+      },
+      "2": {
+        "name": "wood_and_paper",
+        "color": "#a67c52"
+      },
+      "3": {
+        "name": "textile_leather_fur_and_organic",
+        "color": "#87a454"
+      },
+      "4": {
+        "name": "metal",
+        "color": "#aeb8c2"
+      },
+      "5": {
+        "name": "plastic_and_rubber",
+        "color": "#4d8ed8"
+      }
+    }
+  },
+  "135": {
+    "name": "is_container_like",
+    "type": "categorical",
+    "classes": {
+      "0": {
+        "name": "false",
+        "color": "#4c78a8"
+      },
+      "1": {
+        "name": "true",
+        "color": "#54a24b"
+      }
+    }
+  },
+  "136": {
+    "name": "thing_physical_object_category",
+    "type": "categorical",
+    "ontology_revision": "wsg_v1_thing_physical_object_coarse10_v1",
+    "semantics": "Visible physical thing category; distinct from channel 111 asset identity.",
+    "classes": {
+      "0": {
+        "name": "other_or_unknown",
+        "color": "#808080"
+      },
+      "1": {
+        "name": "people",
+        "color": "#e63946"
+      },
+      "2": {
+        "name": "animals_plants_and_food",
+        "color": "#2a9d8f"
+      },
+      "3": {
+        "name": "furniture_and_storage",
+        "color": "#f4a261"
+      },
+      "4": {
+        "name": "architecture_and_lighting",
+        "color": "#8d99ae"
+      },
+      "5": {
+        "name": "electronics_and_appliances",
+        "color": "#457b9d"
+      },
+      "6": {
+        "name": "vessels_and_containers",
+        "color": "#e9c46a"
+      },
+      "7": {
+        "name": "tools_and_weapons",
+        "color": "#8338ec"
+      },
+      "8": {
+        "name": "vehicles",
+        "color": "#118ab2"
+      },
+      "9": {
+        "name": "personal_and_cultural_objects",
+        "color": "#bc6c89"
+      }
+    }
+  }
+}

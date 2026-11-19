@@ -1,0 +1,12 @@
+# python pipeline07_extract_normals_from_video.py
+# python pipeline07_inject_normals_into_wsg.py
+# python pipeline07_read_normals_from_wsg.py
+# python pipeline08_extract_curvature_from_video.py
+# python pipeline08_inject_curvature_into_wsg.py
+# python pipeline08_read_curvature_from_wsg.py
+# python pipeline09_extract_edge_from_video.py
+# python pipeline09_inject_edge_into_wsg.py
+# python pipeline09_read_edge_from_wsg.py
+# python pipeline10_extract_opticalflow_from_video.py
+# python pipeline10_inject_opticalflow_into_wsg.py
+python pipeline10_read_opticalflow_from_wsg.py

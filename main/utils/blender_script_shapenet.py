@@ -1,0 +1,1 @@
+/research/cbim/vast/sf895/code/wave2pixel/wsg_reader/utils/blender_script_shapenet.py
