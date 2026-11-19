@@ -25,11 +25,12 @@ I did consider packaging this as a pip package, but making the code more accessi
 
 ## License
 
-**In short:** You may use and modify these materials for noncommercial
-research, development, and training. Commercial use requires separate
-permission from Rutgers; contact `compliance@research.rutgers.edu` and
-reference Rutgers Docket #2027-020. The [LICENSE](LICENSE) file contains the
-governing terms.
+**In short:** You are welcome to use, study, modify, and extend this project
+for noncommercial purposes, including research, experimentation, development,
+training, evaluation, education, and personal projects. Commercial use
+requires separate permission from Rutgers; contact
+`compliance@research.rutgers.edu` and reference Rutgers Docket #2027-020. The
+[LICENSE](LICENSE) file contains the governing terms.
 
 The original WSG/WSV reading, decoding, and visualization code and
 documentation in this repository are released under the
