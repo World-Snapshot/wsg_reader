@@ -52,10 +52,10 @@ def process_single_wsg_file(args):
         if 'vis' in modes:
             try:
                 # 使用matplotlib的Spectral颜色映射（PrimeDepth官方）
-                import matplotlib.cm as cm
+                import matplotlib
                 
                 # 应用Spectral颜色映射
-                cmap = cm.get_cmap('Spectral')
+                cmap = matplotlib.colormaps.get_cmap('Spectral')
                 depth_colored = cmap(depth_norm)
                 
                 # 转换为BGR格式供OpenCV使用
@@ -77,10 +77,10 @@ def process_single_wsg_file(args):
                 original_pil = Image.fromarray(original_rgb)
                 original_cv2 = cv2.cvtColor(np.array(original_pil), cv2.COLOR_RGB2BGR)
                 # 使用Spectral颜色映射（PrimeDepth官方）
-                import matplotlib.cm as cm
+                import matplotlib
                 
                 # 应用Spectral颜色映射
-                cmap = cm.get_cmap('Spectral')
+                cmap = matplotlib.colormaps.get_cmap('Spectral')
                 depth_colored = cmap(depth_norm)
                 depth_color = (depth_colored[:, :, :3] * 255).astype(np.uint8)
                 depth_color = cv2.cvtColor(depth_color, cv2.COLOR_RGB2BGR)

@@ -44,12 +44,11 @@ def process_single_wsg_file(args):
             try:
                 # 使用 matplotlib VIRIDIS 配色（紫→蓝→青→绿→黄）
                 import matplotlib.pyplot as plt
-                from matplotlib import cm
                 import matplotlib
                 matplotlib.use('Agg')
 
                 # 应用 VIRIDIS colormap
-                viridis = cm.get_cmap('viridis')
+                viridis = matplotlib.colormaps.get_cmap('viridis')
                 depth_colored = viridis(depth_norm)[:, :, :3]  # 去掉alpha通道
                 depth_colored = (depth_colored * 255).astype(np.uint8)
                 depth_color = cv2.cvtColor(depth_colored, cv2.COLOR_RGB2BGR)
@@ -70,11 +69,10 @@ def process_single_wsg_file(args):
                 original_cv2 = cv2.cvtColor(np.array(original_pil), cv2.COLOR_RGB2BGR)
                 # 使用与vis相同的 VIRIDIS 配色
                 import matplotlib.pyplot as plt
-                from matplotlib import cm
                 import matplotlib
                 matplotlib.use('Agg')
 
-                viridis = cm.get_cmap('viridis')
+                viridis = matplotlib.colormaps.get_cmap('viridis')
                 depth_colored = viridis(depth_norm)[:, :, :3]
                 depth_colored = (depth_colored * 255).astype(np.uint8)
                 depth_color = cv2.cvtColor(depth_colored, cv2.COLOR_RGB2BGR)

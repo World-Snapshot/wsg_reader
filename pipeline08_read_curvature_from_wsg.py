@@ -6,12 +6,12 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 import multiprocessing as mp
 import cv2
-import matplotlib.cm as mpl_cm
+import matplotlib
 
 
 def _create_depth_colormap(name='magma'):
     """Construct a perceptually-uniform depth colormap using matplotlib."""
-    cmap = mpl_cm.get_cmap(name, 256)
+    cmap = matplotlib.colormaps.get_cmap(name).resampled(256)
     rgb = (cmap(np.linspace(0, 1, 256))[:, :3] * 255).astype(np.uint8)
     bgr = rgb[:, ::-1]
     return bgr.reshape(256, 1, 3)
